@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    background-color: rgba(0, 0, 0, 0.589);
+    
+}
+.main1{
+    height: inherit;
+    width: 100%;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightskyblue;
+    width: 20%;
+    height: 80%;
+    margin-block-start: 20vh;
+}
+body .main{
+    display: flex;
+    /* height: 100%; */
+    overflow: scroll;
+    margin-block-start: -80vh;
+    margin-left: 50vh;
+    background-color: white;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+nav{
+    margin-block-start: 20vh;
+    margin-top: 30px;
+    overflow: sticky;
+    display: flex;
+}
+.main1 >div >h2{
+    margin-left: 0px;
+    color: white;
+}
+.main1 .one {
+    background-color: lightskyblue;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    
+}
+.main1 .one div{
+    display: flex;
+    /* width: 30%; */
+    margin-right: auto;
+    
+}
+.main1 .one a:hover{
+        background: hotpink;
+        transition: .5s linear;
+        border-radius: 100%;
+        
+    }
+.main1 .one div:nth-child(1) >p{ 
+    margin-top: 20px;
+    margin-inline-start: 70vh;
+}
+.main1 .one div:nth-child(2) a{
+    padding: 5px;
+    /* margin-top: 10px; */
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.main1 .one div a span{ 
+    /* margin-top: 20px; */
+    height: 1.5vh;
+    width: 2vh;
+    margin-right: 5px;
+    padding: 5px;
+}
+.main1 .one >p{
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+}
+.main1 .one span{
+    color: green;
+}
+.main1 .one span1{
+    color: wheat;
+    font-style: italic;
+}
+nav a:hover
+{
+    background-color: aliceblue;
+    transform: scale(0.73);
+    transition: 0.3s;
+    border-radius: 10px;
+    display: flex;
+}
+a{
+    display: flex;
+    padding: 5px;
+}
+nav a span{
+    height: 2vh;
+    margin-inline-end: 10px;
+    width: 3vh;
+    /* padding: 5px; */
+}
+nav >div{
+    display: flex;
+    margin-left: 1.5vh;
+}
+nav >div span{
+    height: 2vh;
+    margin-inline-end: 10px;
+    width: 3vh;
+}
+

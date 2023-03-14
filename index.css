@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+.main{
+    height: 80vh;
+    width: 80%;
+}
+.main >h1{
+    color: #00eeff;
+    padding: 3px;
+    margin-left: 60vh;
+}
+.login{
+    height:70vh;
+    width: 100%;
+    background-color: #00eeff;
+    
+}
+.login h2{
+    padding: 3px;
+    margin-left: 75vh;
+    color: white;
+    margin-top: 50px;
+}
+.login div{
+    margin-bottom: 3px;
+    margin-left: 40vh;
+    margin-top: 10vh;
+    flex-direction: column;
+    display: flex;
+    
+}
+input{
+    margin-left: 20vh;
+    outline: none;
+    height: 5vh;
+    width: 50vh;
+    margin-block-start: 5px;
+    box-shadow: 0 0 5px gray;
+    border-radius: 5px;
+    /* padding-bottom: 4px; */
+}
+select{
+    margin-left: 20vh;
+    outline: none;
+    height: 5vh;
+    width: 50vh;
+    margin-block-start: -60px;
+    box-shadow: 0 0 5px gray;
+    border-radius: 5px; 
+}
+button{
+    margin-left: 60vh;
+    outline: none;
+    height: 5vh;
+    width: 50vh;
+    margin-block-start: -60px;
+    box-shadow: 0 0 5px gray;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.425);
+    transform: scale(1.02);
+}
+p{
+    margin-left: 50vh;
+    margin-block-start: 10px;
+    font-size: 15px;
+    /* font-weight: bold; */
+}
+a{
+    color: white;
+}

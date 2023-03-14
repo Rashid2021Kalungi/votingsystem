@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 160vh;
+    height: 83vh;
+    margin-left: 30vh;
+    flex-direction: column;
+}
+.main h1{
+    color: #00eeff;
+    margin-left: 50vh;
+    padding: 3px;  
+}
+.registers{
+    height: 70vh;
+    width: 100%;
+    /* background-color: lightskyblue; */
+    margin-top: 8vh;
+}
+h2{
+    margin-left: 55vh;
+    padding: 3px;
+    color: black;
+}
+.registers div{
+    margin-bottom: 3px;
+    scroll-margin-block-start: -10vh;
+    margin-top: 5vh;
+    flex-direction: column;
+    display: flex;
+}
+input{
+    height: 5vh;
+    width: 70vh;
+    margin-left: 35vh;
+    margin-top: 10px;
+    box-shadow: 0 0 5px darkcyan;
+    border-radius: 5px;
+    outline: none;
+}
+select{
+    height: 5vh;
+    width: 70vh;
+    margin-left: 35vh;
+    margin-top: -20px;
+    box-shadow: 0 0 5px darkcyan;
+    border-radius: 5px;
+    outline: none;
+}
+button{
+    height: 5vh;
+    width: 70vh;
+    margin-left: 35vh;
+    margin-top: 10px;
+    box-shadow: 0 0 5px darkcyan;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(42, 99, 148);
+    color: wheat;
+    font-size: medium;
+    font-weight: bold;
+}
+button:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    background-color: darkgrey;
+}
+p{
+    margin-left: 60vh;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.registers div:nth-child(2){
+    margin-top: -1vh;
+}

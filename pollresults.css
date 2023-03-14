@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 160vh;
+    height: 83vh;
+    margin-left: 30vh;
+    flex-direction: column;   
+}
+.main div:nth-child(1){
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #000;
+    color: lightskyblue;
+ }
